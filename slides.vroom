@@ -1,0 +1,112 @@
+---- config
+title: The State of the Acmeism in 2012
+indent: 5
+auto_size: 1
+skip: 0
+
+---- center
+The State of the Acmeism in 2012
+
+by Ingy döt Net
+
+YAPC North America
+
+Thu June 14, 1:30pm
+
+----
+== Ingy döt Net
+
+* 100+ CPAN modules
+
+* Inline - write Perl in 25 other langs
+* YAML - Serialize data nicely in many langs
+* Jemplate - JS ♥'s TT2
+* pQuery - Perl ♥'s jQuery
+
+----
+== Languages Don't Matter
+
++* Languages separate people
++  * Artificially!
++* People do matter!
++* Ideas matter!
++* Ideas can save people
++* Don't language stop that
+
++* I call this idea: "Acmeism"
+
+    http://acmeism.org
+
+----
+== The Goals of Acmeism
+
+* Bring communities together by Sharing Ideas
+  * In ways that trancend languages
+* Not limited to programming
+
+----
+== Polyglot
+
+* Polyglot is a new term in programming
+* It means "many languages"
+
+* Polyglots use multiple languages
+* Acmeists *help* multiple languages at once
+
+* Shibuya.pm "polyglot" is more interesting
+
+----
+== Ingy's Acmeist Goals
+
+* Publish 1000 modules in 20 programming languages
+  * CPAN, PyPI, RubyGems, PEAR, etc
+* Every module is is hacked once, published everwhere
+  * H.O.P.E.
+* Need 4 things for this goal:
+  * Acmeist Code
+  * Acmeist Tests
+  * Acmeist Doc
+  * Acmeist Packaging
+
+----
+== Ingy's Acmeist Projects
+
+* I have projects for 3 of the above:
+  * C'Dent - HOPEful Programming Language
+  * TestML - Acmeist Test Framework
+  * Stardoc - HOPEful Doc Framework
+
+* Also, a project that drives them all:
+  * Pegex: Perl6-like grammar engine
+
+----
+== The State in 2012
+
+* 2011 was a big year for Acmeism
+* 2012 has been a big year for Stackato
+* My Acmeist projects have slowed for a bit
+* But Stackato is somewhat Acmeist
+  * More Polyglot actually
+  * But I'm hopeful!
+* PairUp! is my newest creation
+  * It may be a big win for Acmeism
+  * Brings people together easily and intimately
+
+----
+== Let's Get Real
+
+* PairUp!
+* ...
+* C'Dent
+* Pegex
+* TestML
+* JSYNC
+* YAML2
+
+----
+== PairUp!
+
+* Stackato Workshop Tomorrow! 1:30pm
+
+----
+== The End
