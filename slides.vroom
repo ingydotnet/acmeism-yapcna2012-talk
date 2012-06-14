@@ -93,18 +93,85 @@ Thu June 14, 1:30pm
   * Brings people together easily and intimately
 
 ----
-== Let's Get Real
+== Ingy's More Reasonable Acmeist Goals
 
-* PairUp!
+    YAML2!!
+
+* Redo the whole YAML project
+* New smaller spec
+  * YAML 2.0 spec
+  * Subset of 1.2 spec
+* One definitive parser grammar
+  * Written in Pegex
+* One definitive test suite
+  * Written in TestML
+
+----
+== What's wrong with YAML?
+
+* YAML is great, but
+* Spec is too big
+  * Many unused features
+* Many incompatible implementations
+* Perl implementations have very crufty API
+  * Load/Dump is simple but beyond that is a mess
+* YAML is used for simple things
+  * Was designed for complex
+
+----
+== The YAML Stack
+
+Loader Stack        Memory Representation         Dumper Stack
+==============================================================
+      Loader                                      Dumper
+               \                              /
+                  (Native Perl Data/Objects)
+               /                              \
+ Constructor                                      Representer
+               \                              /
+                       (YAML Node Graph)
+               /                              \
+    Composer      <-->     Resolver     <-->      Serializer
+               \                              /
+                       (YAML Event Tree)
+               /                              \
+      Parser                                      Emitter
+               \                              /
+                      (YAML Token Stream)
+               /                              /
+     Scanner
+               \                              /
+                    (YAML Character Stream)
+               /                              \
+      Reader                                      Writer
+               \                              /
+                 (YAML String or File Handle)
+
+----
+== JSYNC
+
+* There are only 3 differences between YAML & JSON
+  * References
+  * Tags
+  * Keys
+* JSYNC is full serialization using JSON
+* Use existing JSON implementations
+* http://jsync.org
+* JSYNC.pm
+
+* Why?
+  * Get the API right, then use it for YAML2!
+
+----
+== Let's PairUp!
+
 * ...
 * C'Dent
 * Pegex
 * TestML
-* JSYNC
-* YAML2
 
 ----
-== PairUp!
+== Don't Forget
 
 * Stackato Workshop Tomorrow! 1:30pm
 
